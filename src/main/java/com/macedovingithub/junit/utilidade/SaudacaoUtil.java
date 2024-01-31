@@ -16,7 +16,12 @@ public class SaudacaoUtil {
         } else if(hora >= 18 && hora <= 23) {
             return "Boa noite";
         }
-        
+
+        // Faz o teste de EXCEÇÂO falhar por não ter exceção
+        // return null;
+
+        // Faz o teste de EXCEÇÂO falhar por não ter a mensagem esperada
+        // throw new IllegalArgumentException("");
         throw new IllegalArgumentException("Hora inválida");
     }
 
