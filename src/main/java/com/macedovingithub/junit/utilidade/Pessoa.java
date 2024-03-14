@@ -1,10 +1,15 @@
 package com.macedovingithub.junit.utilidade;
 
 public class Pessoa {
+
     private String nome;
     private String sobrenome;
 
     public Pessoa(String nome, String sobrenome) {
+//      -> Comentados, fazem o teste FALHAR
+        //this.nome = nome;
+        //this.sobrenome = sobrenome;
+
         this.nome = nome;
         this.sobrenome = sobrenome;
     }
